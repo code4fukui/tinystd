@@ -1,3 +1,5 @@
+#include "stdint.h"
+
 #define FILE uint32_t
 
 #define vsnprintf(...) (void)0

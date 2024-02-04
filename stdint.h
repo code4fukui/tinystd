@@ -1,6 +1,6 @@
 #pragma once
 
-typedef unsigned int size_t;
+//typedef unsigned int size_t;
 //typedef uint32_t size_t;
 //#define size_t uint32_t
 
@@ -20,4 +20,6 @@ typedef char int_fast8_t;
 typedef short int_fast16_t;
 typedef int int_fast32_t;
 
+#ifndef NULL
 #define NULL (void*)0
+#endif
